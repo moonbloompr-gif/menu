@@ -1,0 +1,256 @@
+{
+  "actualizado": "28 oct 2026",
+  "hash": "057D7CCB13D37B5A2EA62C5EB5FD0BD501424C19DA747AF85B7219B6E21C2C4C",
+  "items": [
+    {
+      "id": "39P6BGT8KA44P",
+      "name": "ARBOL NAVIDAD",
+      "price": 0.0
+    },
+    {
+      "id": "KW4AVNEMHYDR6",
+      "name": "Arreglo",
+      "price": 0.0
+    },
+    {
+      "id": "ZPQ0R201D2B2M",
+      "name": "Rosas",
+      "price": 0.0
+    },
+    {
+      "id": "BWZYBE5N0XWNG",
+      "name": "Claveles",
+      "price": 0.0
+    },
+    {
+      "id": "GV9PGV41JF5D8",
+      "name": "Cremoras",
+      "price": 0.0
+    },
+    {
+      "id": "47TNZBXX15NBY",
+      "name": "Lisianthus",
+      "price": 0.0
+    },
+    {
+      "id": "WEF0RA6KTC026",
+      "name": "Magnolias",
+      "price": 0.0
+    },
+    {
+      "id": "VN5CANW8J7BPA",
+      "name": "Eucalipto Baby Blue",
+      "price": 0.0
+    },
+    {
+      "id": "EDT97GXM0PXPC",
+      "name": "Eucalipto Silver Dollar",
+      "price": 0.0
+    },
+    {
+      "id": "MV20ASB6X60JY",
+      "name": "HOT CHOCOLATE 12oz",
+      "price": 0.0
+    },
+    {
+      "id": "SS9G5P0YMDTD8",
+      "name": "CAPPUCCINO 12oz",
+      "price": 0.0
+    },
+    {
+      "id": "QVX9Y8T0HJGBC",
+      "name": "LATTE 12oz",
+      "price": 0.0
+    },
+    {
+      "id": "5F36T5YKVTVWE",
+      "name": "AMERICANO 12oz",
+      "price": 3.5
+    },
+    {
+      "id": "4VK6B1G9GT5PT",
+      "name": "MOCHA12oz",
+      "price": 5.5
+    },
+    {
+      "id": "TEH6P22N5KA6Y",
+      "name": "Santiago Ruiz Albariño",
+      "price": 26.95
+    },
+    {
+      "id": "90SN1JZZG1CJA",
+      "name": "Quesos variados",
+      "price": 7.5
+    },
+    {
+      "id": "GJK442YNJVXQJ",
+      "name": "Queso fresco El Clandestino",
+      "price": 9.0
+    },
+    {
+      "id": "VJ90P2Z5BPCVP",
+      "name": "Yogur griego artesanal",
+      "price": 3.0
+    },
+    {
+      "id": "QF88DHKT9NYSA",
+      "name": "Estrella Galicia 0.0",
+      "price": 5.0
+    },
+    {
+      "id": "QQN7YYFWXZZXM",
+      "name": "Lucky Buddha",
+      "price": 6.0
+    },
+    {
+      "id": "WE6W4V0QX9GYA",
+      "name": "Teeter Totter Cabernet Sauvignon 2023 BOTELLA",
+      "price": 68.0
+    },
+    {
+      "id": "T437BTKJTD21T",
+      "name": "Teeter Totter Cabernet Sauvignon 2023 COPA",
+      "price": 17.0
+    },
+    {
+      "id": "6DHG7G2JB69RM",
+      "name": "Terra Vega Sauvignon Blanc",
+      "price": 28.0
+    },
+    {
+      "id": "YY2MECJJA85GT",
+      "name": "Terra Vega Sauvignon Blanc COPA",
+      "price": 7.0
+    },
+    {
+      "id": "TG6Z8MJGT3MJ8",
+      "name": "Altos de Torona Albariño BOTELLA",
+      "price": 48.0
+    },
+    {
+      "id": "CM66SN6YBG3AG",
+      "name": "Altos de Torona Albariño COPA",
+      "price": 13.0
+    },
+    {
+      "id": "1G5XFQXN17494",
+      "name": "Mimosas COPA",
+      "price": 9.0
+    },
+    {
+      "id": "Y7D5K56661BFT",
+      "name": "Calvet Crémant de Bourgogne Brut BOTELLA",
+      "price": 52.0
+    },
+    {
+      "id": "SQ8CNBS8TXS92",
+      "name": "Calvet Crémant de Bourgogne Brut COPA",
+      "price": 14.0
+    },
+    {
+      "id": "ZGJG97363K06C",
+      "name": "Baron de Rothberg Brut BOTELLA",
+      "price": 30.0
+    },
+    {
+      "id": "N1DXMJZYGWXZ8",
+      "name": "Baron de Rothberg Brut COPA",
+      "price": 8.0
+    },
+    {
+      "id": "88QV78XNWKAXR",
+      "name": "CHAMOMILE",
+      "price": 4.5
+    },
+    {
+      "id": "A4Z23X2V8TEHP",
+      "name": "HIBISCUS",
+      "price": 4.5
+    },
+    {
+      "id": "ZPD0Q3KE8GNFR",
+      "name": "JASMINE",
+      "price": 4.5
+    },
+    {
+      "id": "NG4SKPNCDN46E",
+      "name": "MOON BLOOM",
+      "price": 8.5
+    },
+    {
+      "id": "N6RG8BQ7WSH4W",
+      "name": "CRIMSON GARDEN",
+      "price": 8.5
+    },
+    {
+      "id": "EB0VN596JAFNJ",
+      "name": "C MATCHA",
+      "price": 7.5
+    },
+    {
+      "id": "FX6XYYGN0HFT4",
+      "name": "MIDNIGHT BLOOM",
+      "price": 6.75
+    },
+    {
+      "id": "0G4PZ8QD654RG",
+      "name": "QUIET BLOOM LATTE",
+      "price": 6.25
+    },
+    {
+      "id": "RTAA7FHYYWJAY",
+      "name": "IC CAPPUCCINO",
+      "price": 5.25
+    },
+    {
+      "id": "NDXMJKCP98Y0W",
+      "name": "IC LATTE",
+      "price": 5.25
+    },
+    {
+      "id": "XZNQTKTDP686C",
+      "name": "IC AMERICANO",
+      "price": 4.0
+    },
+    {
+      "id": "EBF5YM6Q67W8T",
+      "name": "CORTADO",
+      "price": 3.0
+    },
+    {
+      "id": "5GSZ04RGCC32W",
+      "name": "MACHIATO",
+      "price": 2.75
+    },
+    {
+      "id": "AN87KH17VXNS2",
+      "name": "ESPRESSO",
+      "price": 2.5
+    },
+    {
+      "id": "X3J4MP4CHV7M6",
+      "name": "HOT CHOCOLATE 8oz",
+      "price": 3.5
+    },
+    {
+      "id": "JB4JFRCYQ77JP",
+      "name": "MOCHA 8oz",
+      "price": 4.75
+    },
+    {
+      "id": "PEY0E8C7J2WM2",
+      "name": "LATTE 8oz",
+      "price": 4.25
+    },
+    {
+      "id": "DPK22R0S7VZMG",
+      "name": "CAPUCCINO 8oz",
+      "price": 4.25
+    },
+    {
+      "id": "SSXSS88Q8KSQA",
+      "name": "AMERICANO 8oz",
+      "price": 3.0
+    }
+  ]
+}
