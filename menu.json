@@ -1,7 +1,12 @@
 {
   "actualizado": "30 oct 2026",
-  "hash": "35D1F1D0B99F5A444995F2D9C9B4127D4780ED2C31566088358930502454F887",
+  "hash": "63D644DE2AB93CE8825DDF8B96A54208DD901ABD1B6A0DC53A2608C2CEFB3335",
   "items": [
+    {
+      "id": "GA9RSXERKMTXC",
+      "name": "HOT CHOCOLATE 8oz",
+      "price": 3.5
+    },
     {
       "id": "41E0116VECE0Y",
       "name": "Girasol",
@@ -75,7 +80,7 @@
     {
       "id": "MV20ASB6X60JY",
       "name": "HOT CHOCOLATE 12oz",
-      "price": 0.0
+      "price": 4.25
     },
     {
       "id": "SS9G5P0YMDTD8",
