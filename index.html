@@ -78,6 +78,11 @@ footer .brand{font-family:Cinzel,Georgia,serif;letter-spacing:.24em;padding-left
 .garden h2{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:34px;color:var(--sage);margin:0}
 .garden p{margin:8px auto 0;max-width:480px;color:var(--muted)}
 .pin{width:15px;height:15px;vertical-align:-2px;margin-right:6px}
+.gal{margin:34px 0 0;text-align:center}
+.gal h2{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:34px;color:var(--sage);margin:0}
+.gal p{margin:6px auto 16px;max-width:460px;color:var(--muted)}
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.gal-grid img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px}
 .garden-pin{display:inline-flex;align-items:center;gap:2px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);text-decoration:none;border:1px solid rgba(164,87,58,.35);border-radius:999px;padding:7px 14px;margin-bottom:12px}
 .garden-pin:hover{background:var(--rust);color:var(--paper)}
 @media (max-width:640px){.cols{grid-template-columns:1fr}}</style>
@@ -103,10 +108,19 @@ footer .brand{font-family:Cinzel,Georgia,serif;letter-spacing:.24em;padding-left
 <main class="wrap">
 <figure class="photo" style="margin-top:30px"><img src="fotos/local.jpg" alt="El atelier de Moon Bloom" width="1400" height="933"></figure>
 <div class="cols">
-<div class="col"><img src="fotos/atelier.jpg" alt="Arreglo de rosas blancas, lirios y girasoles en un jarrón de cerámica" loading="lazy"><div><h3>Floral Atelier</h3><p>Ramos y arreglos a la medida, hechos a mano con flores de temporada.</p></div></div>
+<div class="col"><img src="fotos/atelier.jpg" alt="Arreglo pequeño de rosas melocotón y lisianthus con la tarjeta Moon Bloom" loading="lazy"><div><h3>Floral Atelier</h3><p>Ramos y arreglos a la medida, hechos a mano con flores de temporada.</p></div></div>
 <div class="col"><img src="fotos/cafe.jpg" alt="Café con un clavel envuelto en papel Moon Bloom" loading="lazy"><div><h3>Café &amp; Matcha</h3><p>Espresso, lattes de la casa y matcha ceremonial.</p></div></div>
 <div class="col"><img src="fotos/vinos.jpg" alt="Vinos y burbujas" loading="lazy"><div><h3>Vinos &amp; Burbujas</h3><p>Copa o botella, mimosas y quesos artesanales para acompañar.</p></div></div>
 </div>
+<section class="gal">
+<h2>Floral Atelier</h2>
+<p>Algunos de nuestros arreglos. Cada uno se hace a mano con flores de temporada.</p>
+<div class="gal-grid">
+<img src="fotos/galeria2.jpg" alt="Orquídeas rojas y naranjas con rosas en jarrón de cristal y cinta vino" loading="lazy">
+<img src="fotos/galeria3.jpg" alt="Tres arreglos de orquídeas, rosas y anturios sobre pedestales" loading="lazy">
+<img src="fotos/galeria1.jpg" alt="Orquídeas, rosas y anturio con cinta de lino" loading="lazy">
+</div>
+</section>
 <section class="garden">
 <img src="fotos/patio.jpg" alt="El patio Secret Garden de Moon Bloom, con mesas y plantas colgantes" width="1600" height="1200" loading="lazy">
 <div class="garden-txt"><a class="garden-pin" href="https://maps.app.goo.gl/dTdEupvH5MkMdL1L7" target="_blank" rel="noopener"><svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg> Secret Garden · Moon Bloom, Hatillo</a><h2>Secret Garden</h2>
