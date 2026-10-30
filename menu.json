@@ -1,7 +1,32 @@
 {
-  "actualizado": "28 oct 2026",
-  "hash": "4F92ABB761A34254000DC5334E52782AA6C977DB213A4DA3BB3025D906432AB6",
+  "actualizado": "30 oct 2026",
+  "hash": "7D283C04A516A9983C12BA7FE8675C4EBDD59792FBA824875F0AE5AD94A06A32",
   "items": [
+    {
+      "id": "41E0116VECE0Y",
+      "name": "Girasol",
+      "price": 0.0
+    },
+    {
+      "id": "N7H1ZP468B1TR",
+      "name": "Ruscus Isreali",
+      "price": 0.0
+    },
+    {
+      "id": "DNT9HW35FS9W6",
+      "name": "Camisas",
+      "price": 0.0
+    },
+    {
+      "id": "79KG0GQEWFD76",
+      "name": "Suculenta Mini",
+      "price": 2.0
+    },
+    {
+      "id": "NPFA3PFG9T91M",
+      "name": "Perrier",
+      "price": 3.0
+    },
     {
       "id": "39P6BGT8KA44P",
       "name": "ARBOL NAVIDAD",
@@ -55,12 +80,12 @@
     {
       "id": "SS9G5P0YMDTD8",
       "name": "CAPPUCCINO 12oz",
-      "price": 0.0
+      "price": 4.75
     },
     {
       "id": "QVX9Y8T0HJGBC",
       "name": "LATTE 12oz",
-      "price": 0.0
+      "price": 4.74
     },
     {
       "id": "5F36T5YKVTVWE",
@@ -175,17 +200,17 @@
     {
       "id": "NG4SKPNCDN46E",
       "name": "MOON BLOOM",
-      "price": 8.5
+      "price": 8.25
     },
     {
       "id": "N6RG8BQ7WSH4W",
       "name": "CRIMSON GARDEN",
-      "price": 8.5
+      "price": 8.25
     },
     {
       "id": "EB0VN596JAFNJ",
       "name": "C MATCHA",
-      "price": 7.5
+      "price": 7.25
     },
     {
       "id": "FX6XYYGN0HFT4",

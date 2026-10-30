@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Moon Bloom · Floral Atelier · Menú</title>
+<title>Moon Bloom · Floral Atelier · Hatillo</title>
 <meta name="theme-color" content="#f4efe7">
 <link rel="icon" href="logo-emblema.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,8 +54,28 @@ li:last-child{border-bottom:0}
 footer{text-align:center;color:var(--muted);font-size:12.5px;padding:30px 0 50px}
 footer .brand{font-family:Cinzel,Georgia,serif;letter-spacing:.24em;padding-left:.24em;color:var(--ink);font-size:13px;margin-bottom:6px}
 @media (max-width:420px){section{padding:18px 16px 8px}.name{font-size:19.5px}.row{flex-wrap:wrap}.dots{display:none}.price{width:100%}}
-@media print{body{background:#fff}nav,.order,.photo,.voz{display:none}section{border:0;padding:8px 0}li{break-inside:avoid}}</style>
-<meta name="description" content="Moon Bloom Floral Atelier en Hatillo, Puerto Rico: flores, café de especialidad, matcha ceremonial, vinos y quesos artesanales.">
+@media print{body{background:#fff}nav,.order,.photo,.voz{display:none}section{border:0;padding:8px 0}li{break-inside:avoid}}.hero{padding:40px 0 18px}
+.lead{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:22px;color:var(--muted);margin:18px auto 0;max-width:460px}
+.ctas{display:flex;flex-direction:column;gap:10px;max-width:360px;margin:26px auto 0}
+.btn{display:block;text-align:center;padding:15px 20px;border-radius:999px;text-decoration:none;letter-spacing:.2em;text-transform:uppercase;font-size:12px;font-weight:400;border:1px solid var(--ink);color:var(--ink);background:var(--paper)}
+.btn.dark{background:var(--ink);color:var(--paper)}
+.btn.menu{background:#4c4f24;border-color:#4c4f24;color:var(--paper);font-size:13px;padding:18px 20px}
+.btn:hover{opacity:.88}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:34px 0 0}
+.col{background:var(--paper);border:1px solid rgba(43,39,36,.07);border-radius:4px;overflow:hidden}
+.col img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.col div{padding:14px 16px 16px}
+.col h3{text-align:left;font-size:22px}
+.col p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.visit{margin:34px 0 26px;text-align:center;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.visit h2{font-family:Cinzel,Georgia,serif;font-weight:400;letter-spacing:.3em;padding-left:.3em;font-size:14px;color:var(--rust);margin:0 0 10px}
+.visit p{margin:4px 0}
+.visit a{color:var(--ink)}
+@media (max-width:640px){.cols{grid-template-columns:1fr}}</style>
+<meta name="description" content="Moon Bloom Floral Atelier en Hatillo, Puerto Rico: flores de temporada, café de especialidad, matcha ceremonial y vinos.">
+<meta property="og:title" content="Moon Bloom · Floral Atelier">
+<meta property="og:description" content="Flores, café, matcha y vinos en Hatillo, Puerto Rico.">
+<meta property="og:image" content="https://www.moonbloompr.com/fotos/local.jpg">
 <link rel="canonical" href="https://www.moonbloompr.com/">
 </head>
 <body>
@@ -63,29 +83,26 @@ footer .brand{font-family:Cinzel,Georgia,serif;letter-spacing:.24em;padding-left
 <img class="emblem" src="logo-emblema.png" alt="" width="54" height="78">
 <h1>Moon Bloom</h1>
 <div class="atelier">Floral Atelier</div>
-<div class="tag">Flores &nbsp;·&nbsp; Café &nbsp;·&nbsp; Matcha &nbsp;·&nbsp; Vinos</div>
+<p class="lead">Flores de temporada, café de especialidad, matcha ceremonial y vinos, en Hatillo.</p>
+<div class="ctas">
+<a class="btn menu" href="menu/">Ver el menú</a>
 
+<a class="btn" href="https://www.instagram.com/moonbloompr/" target="_blank" rel="noopener">Síguenos en Instagram</a>
+</div>
 </header>
-<div class="wrap"><figure class="photo"><img src="fotos/local.jpg" alt="El atelier de Moon Bloom en Hatillo" width="1400" height="933"></figure></div>
-<nav><div class="wrap"><a href="#g1">Caf&#233; &amp; Matcha</a><a href="#g2">Vinos &amp; Burbujas</a><a href="#g3">Para acompa&#241;ar</a><a href="opinion.html">Tu opinión</a></div></nav>
-<main class="wrap"><div class="group" id="g1"><div class="group-head"><h2>Caf&#233; &amp; Matcha</h2></div><section><h3>Signature Coffee</h3><ul><li><div class="row"><span class="name">Midnight Bloom</span><span class="dots"></span><span class="price"><b>$6.75</b></span></div></li><li><div class="row"><span class="name">Quiet Bloom Latte</span><span class="dots"></span><span class="price"><b>$6.25</b></span></div></li></ul></section><section><h3>Ceremonial Matcha</h3><ul><li><div class="row"><span class="name">Moon Bloom</span><span class="dots"></span><span class="price"><b>$8.50</b></span></div></li><li><div class="row"><span class="name">Crimson Garden</span><span class="dots"></span><span class="price"><b>$8.50</b></span></div></li><li><div class="row"><span class="name">C Matcha</span><span class="dots"></span><span class="price"><b>$7.50</b></span></div></li></ul></section><section><h3>Espresso Bar</h3><ul><li><div class="row"><span class="name">Cortado</span><span class="dots"></span><span class="price"><b>$3</b></span></div></li><li><div class="row"><span class="name">Macchiato</span><span class="dots"></span><span class="price"><b>$2.75</b></span></div></li><li><div class="row"><span class="name">Espresso</span><span class="dots"></span><span class="price"><b>$2.50</b></span></div></li></ul></section><section><h3>Hot Coffee</h3><ul><li><div class="row"><span class="name">Americano</span><span class="dots"></span><span class="price"><span>8 oz</span><b>$3</b><i>|</i><span>12 oz</span><b>$3.50</b></span></div></li><li><div class="row"><span class="name">Mocha</span><span class="dots"></span><span class="price"><b>$4.75</b><i>|</i><span>12 oz</span><b>$5.50</b></span></div></li><li><div class="row"><span class="name">Hot Chocolate</span><span class="dots"></span><span class="price"><b>$3.50</b></span></div></li><li><div class="row"><span class="name">Latte</span><span class="dots"></span><span class="price"><b>$4.25</b></span></div></li><li><div class="row"><span class="name">Cappuccino</span><span class="dots"></span><span class="price"><b>$4.25</b></span></div></li></ul></section><section><h3>Iced Coffee</h3><ul><li><div class="row"><span class="name">Iced Cappuccino</span><span class="dots"></span><span class="price"><b>$5.25</b></span></div></li><li><div class="row"><span class="name">Iced Latte</span><span class="dots"></span><span class="price"><b>$5.25</b></span></div></li><li><div class="row"><span class="name">Iced Americano</span><span class="dots"></span><span class="price"><b>$4</b></span></div></li></ul></section><section><h3>Teas &amp; Infusions</h3><ul><li><div class="row"><span class="name">Chamomile</span><span class="dots"></span><span class="price"><b>$4.50</b></span></div></li><li><div class="row"><span class="name">Hibiscus</span><span class="dots"></span><span class="price"><b>$4.50</b></span></div></li><li><div class="row"><span class="name">Jasmine</span><span class="dots"></span><span class="price"><b>$4.50</b></span></div></li></ul></section></div><div class="group" id="g2"><div class="group-head"><h2>Vinos &amp; Burbujas</h2></div><section><h3>Espumosos</h3><ul><li><div class="row"><span class="name">Mimosas</span><span class="dots"></span><span class="price"><span>Copa</span><b>$9</b></span></div></li><li><div class="row"><span class="name">Calvet Cr&#233;mant de Bourgogne Brut</span><span class="dots"></span><span class="price"><span>Copa</span><b>$14</b><i>|</i><span>Botella</span><b>$52</b></span></div></li><li><div class="row"><span class="name">Baron de Rothberg Brut</span><span class="dots"></span><span class="price"><span>Copa</span><b>$8</b><i>|</i><span>Botella</span><b>$30</b></span></div></li></ul></section><section><h3>Vinos Blancos</h3><ul><li><div class="row"><span class="name">Santiago Ruiz Albari&#241;o</span><span class="dots"></span><span class="price"><b>$26.95</b></span></div></li><li><div class="row"><span class="name">Terra Vega Sauvignon Blanc</span><span class="dots"></span><span class="price"><span>Copa</span><b>$7</b><i>|</i><span>Botella</span><b>$28</b></span></div></li><li><div class="row"><span class="name">Altos de Torona Albari&#241;o</span><span class="dots"></span><span class="price"><span>Copa</span><b>$13</b><i>|</i><span>Botella</span><b>$48</b></span></div></li></ul></section><section><h3>Vinos Tintos</h3><ul><li><div class="row"><span class="name">Teeter Totter Cabernet Sauvignon 2023</span><span class="dots"></span><span class="price"><span>Copa</span><b>$17</b><i>|</i><span>Botella</span><b>$68</b></span></div></li></ul></section><section><h3>Cervezas Importadas</h3><ul><li><div class="row"><span class="name">Lucky Buddha</span><span class="dots"></span><span class="price"><b>$6</b></span></div></li></ul></section><section><h3>Sin Alcohol 0.0%</h3><ul><li><div class="row"><span class="name">Estrella Galicia 0.0</span><span class="dots"></span><span class="price"><b>$5</b></span></div></li></ul></section></div><div class="group" id="g3"><div class="group-head"><h2>Para acompa&#241;ar</h2></div><section><h3>Artesanales de La Crema</h3><ul><li><div class="row"><span class="name">Quesos Variados</span><span class="dots"></span><span class="price"><b>$7.50</b></span></div></li><li><div class="row"><span class="name">Queso Fresco El Clandestino</span><span class="dots"></span><span class="price"><b>$9</b></span></div></li><li><div class="row"><span class="name">Yogur Griego Artesanal</span><span class="dots"></span><span class="price"><b>$3</b></span></div></li></ul></section></div>
-<aside class="floral">
-<div class="t">Floral Atelier</div>
-<p>Ramos y arreglos a la medida, hechos a mano con flores de temporada. Pregúntanos en el mostrador.</p>
-</aside>
-<div class="voz">
-<p>¿Hay un vino, un té o una flor que te gustaría encontrar aquí?</p>
-<a href="opinion.html">Recomiéndanos</a>
+<main class="wrap">
+<figure class="photo" style="margin-top:30px"><img src="fotos/local.jpg" alt="El atelier de Moon Bloom" width="1400" height="933"></figure>
+<div class="cols">
+<div class="col"><img src="fotos/flores.jpg" alt="Flores de temporada" loading="lazy"><div><h3>Floral Atelier</h3><p>Ramos y arreglos a la medida, hechos a mano con flores de temporada.</p></div></div>
+<div class="col"><img src="fotos/barra.jpg" alt="La barra de café" loading="lazy"><div><h3>Café &amp; Matcha</h3><p>Espresso, lattes de la casa y matcha ceremonial.</p></div></div>
+<div class="col"><img src="fotos/vinos.jpg" alt="Vinos y burbujas" loading="lazy"><div><h3>Vinos &amp; Burbujas</h3><p>Copa o botella, mimosas y quesos artesanales para acompañar.</p></div></div>
 </div>
-<div class="voz" style="border-top:0">
-<p>Síguenos para ver las flores de cada semana</p>
-<a href="https://www.instagram.com/moonbloompr/" target="_blank" rel="noopener">Síguenos en Instagram · @moonbloompr</a>
-</div>
+<section class="visit">
+<h2>Visítanos</h2>
+<p>Costa Norte Shopping Village · 517 Ave. Militar #107 · Hatillo, PR</p>
+<p><a href="https://www.google.com/maps/search/?api=1&query=Moon%20Bloom%2C%20Costa%20Norte%20Shopping%20Village%2C%20517%20Ave.%20Militar%2C%20Hatillo%2C%20PR%2000659" target="_blank" rel="noopener">Cómo llegar</a> &nbsp;·&nbsp; <a href="opinion.html">Déjanos tu opinión</a></p>
+</section>
 </main>
-<footer class="wrap">
-<div class="brand">MOON BLOOM</div>
-<div>Costa Norte Shopping Village · 517 Ave. Militar #107 · Hatillo, PR</div>
-<div>Precios no incluyen IVU · Actualizado: 28 oct 2026</div>
-</footer>
+<footer class="wrap"><div class="brand">MOON BLOOM</div><div><a href="https://www.instagram.com/moonbloompr/" target="_blank" rel="noopener" style="color:inherit">Instagram · @moonbloompr</a></div></footer>
 </body>
 </html>
