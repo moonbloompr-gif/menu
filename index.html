@@ -85,7 +85,17 @@ footer .brand{font-family:Cinzel,Georgia,serif;letter-spacing:.24em;padding-left
 .gal-grid img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px}
 .garden-pin{display:inline-flex;align-items:center;gap:2px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);text-decoration:none;border:1px solid rgba(164,87,58,.35);border-radius:999px;padding:7px 14px;margin-bottom:12px}
 .garden-pin:hover{background:var(--rust);color:var(--paper)}
-@media (max-width:640px){.cols{grid-template-columns:1fr}}</style>
+.reviews{margin:34px 0 0;text-align:center}
+.reviews h2{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:34px;color:var(--sage);margin:0}
+.reviews>p{margin:6px auto 18px;max-width:460px;color:var(--muted)}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;text-align:left;margin-top:14px}
+.rev{background:var(--paper);border:1px solid rgba(43,39,36,.07);border-radius:4px;padding:22px 22px 18px;margin:0;display:flex;flex-direction:column}
+.rev blockquote{margin:0 0 14px;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:20px;line-height:1.35;color:var(--ink);flex:1}
+.rev figcaption{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.rev figcaption b{font-weight:400;color:var(--ink)}
+.rev.feat{padding:30px 34px 24px;border-color:rgba(76,79,36,.22)}
+.rev.feat blockquote{font-size:22px;line-height:1.45}
+@media (max-width:640px){.cols{grid-template-columns:1fr}.rev-grid{grid-template-columns:1fr}.rev.feat{padding:24px 22px 18px}.rev.feat blockquote{font-size:20px}}</style>
 <meta name="description" content="Moon Bloom Floral Atelier en Hatillo, Puerto Rico: flores de temporada, café de especialidad, matcha ceremonial y vinos.">
 <meta property="og:title" content="Moon Bloom · Floral Atelier">
 <meta property="og:description" content="Flores, café, matcha y vinos en Hatillo, Puerto Rico.">
@@ -125,6 +135,16 @@ footer .brand{font-family:Cinzel,Georgia,serif;letter-spacing:.24em;padding-left
 <img src="fotos/patio.jpg" alt="El patio Secret Garden de Moon Bloom, con mesas y plantas colgantes" width="1600" height="1200" loading="lazy">
 <div class="garden-txt"><a class="garden-pin" href="https://maps.app.goo.gl/dTdEupvH5MkMdL1L7" target="_blank" rel="noopener"><svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c-3.9 0-7 3.1-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg> Secret Garden · Moon Bloom, Hatillo</a><h2>Secret Garden</h2>
 <p>Nuestro patio al aire libre, entre plantas colgantes y bajo los toldos. Para un café de mañana, una copa de vino al atardecer o una tarde tranquila.</p></div>
+</section>
+<section class="reviews">
+<h2>Lo que dicen</h2>
+<p>Palabras de quienes ya nos visitaron.</p>
+<figure class="rev feat"><blockquote>“Tuve una experiencia muy agradable. Desde el primer momento, el servicio fue excelente, atento y cordial. El café fue una grata sorpresa, algo diferente a lo que estamos acostumbrados, con un toque muy particular que lo hace especial. El ambiente merece una mención aparte: elegante, acogedor y con una decoración de muy buen gusto. Tiene ese encanto de lo fino y sofisticado, sin caer en lo exagerado. Todo luce sencillo, armonioso y cuidado en cada detalle. Definitivamente, un lugar que invita a disfrutar, conversar y regresar. ¡Una experiencia que vale la pena repetir!”</blockquote><figcaption><b>@marybettreyes</b> · Instagram</figcaption></figure>
+<div class="rev-grid">
+<figure class="rev"><blockquote>“Hermoso lugar y riquísimo su matcha, y sobre todo la atención al cliente espectacular. ¡Lo recomiendo!”</blockquote><figcaption><b>@lelyyy_23</b> · Instagram</figcaption></figure>
+<figure class="rev"><blockquote>“Me encantó cada detalle del concepto, su ambiente acogedor y, por supuesto, ¡su delicioso matcha ceremonial y café!”</blockquote><figcaption><b>@zabdielysart</b> · Instagram</figcaption></figure>
+<figure class="rev"><blockquote>“Fui y me enamoré de sus bebidas, y del ambiente ni hablar.”</blockquote><figcaption><b>@soyvanesalugo</b> · Instagram</figcaption></figure>
+</div>
 </section>
 <section class="visit">
 <h2>Visítanos</h2>

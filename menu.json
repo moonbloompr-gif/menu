@@ -1,7 +1,62 @@
 {
-  "actualizado": "30 oct 2026",
-  "hash": "1B6A0E74A0AB083F2D0BE7460275E82807DD93719CBBCFBCB1AB287CFA4B35EA",
+  "actualizado": "1 nov 2026",
+  "hash": "6464C31BD2E0561B9A6F4A0F14F29121350855CB5837BA2A7475197E20BD3036",
   "items": [
+    {
+      "id": "NW8C5S8MT0EH6",
+      "name": "Shirts",
+      "price": 30.0
+    },
+    {
+      "id": "J83RFCCWWVF9P",
+      "name": "Tote Bags",
+      "price": 15.0
+    },
+    {
+      "id": "S6N1HJPC0TF64",
+      "name": "Allium",
+      "price": 0.0
+    },
+    {
+      "id": "8YYCKQRFQZW1J",
+      "name": "Crisantemo Araña",
+      "price": 0.0
+    },
+    {
+      "id": "Z1P108DHXYBZ2",
+      "name": "Safari Sunset",
+      "price": 0.0
+    },
+    {
+      "id": "809WQ4FQWJ65A",
+      "name": "Pin Cushion",
+      "price": 3.75
+    },
+    {
+      "id": "HS78QNM5FSAXP",
+      "name": "ESTROMANTE TRICOLOR",
+      "price": 0.0
+    },
+    {
+      "id": "5DFJXPMYWXGQR",
+      "name": "PATOS MAJULIA",
+      "price": 6.0
+    },
+    {
+      "id": "57XB7YNQZHXCM",
+      "name": "MATCHA 12oz",
+      "price": 5.0
+    },
+    {
+      "id": "2R6NZMCMN8MT8",
+      "name": "MATCHA 8oz",
+      "price": 4.5
+    },
+    {
+      "id": "5JFFQ8JMTZDKR",
+      "name": "Planta",
+      "price": 0.0
+    },
     {
       "id": "GA9RSXERKMTXC",
       "name": "HOT CHOCOLATE 8oz",
@@ -10,7 +65,7 @@
     {
       "id": "41E0116VECE0Y",
       "name": "Girasol",
-      "price": 0.0
+      "price": 5.95
     },
     {
       "id": "N7H1ZP468B1TR",
@@ -45,16 +100,16 @@
     {
       "id": "ZPQ0R201D2B2M",
       "name": "Rosas",
-      "price": 0.0
+      "price": 5.0
     },
     {
       "id": "BWZYBE5N0XWNG",
       "name": "Claveles",
-      "price": 0.0
+      "price": 3.0
     },
     {
       "id": "GV9PGV41JF5D8",
-      "name": "Cremoras",
+      "name": "Crisantemo",
       "price": 0.0
     },
     {
