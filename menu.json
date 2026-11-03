@@ -1,7 +1,12 @@
 {
   "actualizado": "3 nov 2026",
-  "hash": "60D049F58E381C6147816ADEFF235660501C48993CF4E65D21A29F34F8DA6EC5",
+  "hash": "7198F90C1B0806C53E5DF84CEFE0EC7752921B64E45530E73951AB9B2A850E34",
   "items": [
+    {
+      "id": "RWY2B4NCW3QB2",
+      "name": "Eryngium Azul",
+      "price": 0.0
+    },
     {
       "id": "NW8C5S8MT0EH6",
       "name": "Shirts",
@@ -15,7 +20,7 @@
     {
       "id": "S6N1HJPC0TF64",
       "name": "Allium",
-      "price": 0.0
+      "price": 6.0
     },
     {
       "id": "8YYCKQRFQZW1J",
